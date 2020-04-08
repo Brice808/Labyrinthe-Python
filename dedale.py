@@ -74,24 +74,24 @@ def down():
 dir = []
 
 def algo(value):
-    if (map[posY == 1][posX] == 1)
-    right ()
-        elif (map[posY += 1][posX] == 1)        
-        left ()
-                else (map[posY == 1][posX] == 1)
-        down ()
-        else (map[posY += 1][posX] -= 1)
-        up ()
-    if (map[posY -= 1][posX] == 1)
+    if (map[posY == 1][posX] == 1):
+        right ()
+        elif (map[posY += 1][posX] == 1):     
+            left ()
+            else (map[posY == 1][posX] == 1):
+                    down ()
+                else (map[posY += 1][posX] -= 1):
+                    up ()
+    if (map[posY -= 1][posX] == 1):
         left () 
-        elif (map[posY == 1][posX] == 1)
-        down ()
-    if  (map[posY == 1][posX] == 1)
+         elif (map[posY == 1][posX] == 1):
+                down ()
+    if (map[posY == 1][posX] == 1):
         left ()
-        elif (map[posY += 1][posX] += 1)
-        up ()
-        else (map[posY == 1][posX] -= 1)
-        down ()
+        elif (map[posY += 1][posX] += 1):
+             up ()
+        else (map[posY == 1][posX] -= 1):
+             down ()
 
 
 
